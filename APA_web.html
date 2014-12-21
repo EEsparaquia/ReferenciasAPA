@@ -10,52 +10,7 @@
     </head>
 
     <body>
-        <script type="text/javascript">
-            function notEmpty() {
-
-                //console.log("1223455");
-            
-                var resp = "";
-                var myText1 = document.getElementById('txf1');
-                var myText2 = document.getElementById('txf2');
-                var myText3 = document.getElementById('txf3');
-                var myText4 = document.getElementById('txf4');
-                var myText5 = document.getElementById('txf5');
-                var myText6 = document.getElementById('txf6');
-                
-                if( myText1.value != "" && 
-                    myText2.value != "" && 
-                    myText3.value != "" && 
-                    myText4.value != "" && 
-                    myText5.value != "" && 
-                    myText6.value != "" ) {
-
-                        resp = "<h3>La ficha resultante es:</h3><br/><h3>  " 
-                            + myText1.value 
-                            +". (" 
-                            +   myText2.value   
-                            +"). " 
-                            + myText3.value
-                            + '. ' 
-                            + myText4.value 
-                            +", de " 
-                            + myText5.value 
-                            +" Sitio web: " 
-                            + myText6.value
-                            +"</h3>";	
-
-                            //console.log(resp);
-
-                }
-                else{
-                       resp = "<h3>Te falt&oacute llenar algun dato </h3>";
-                       //console.log(resp);       
-                    }
-
-                document.getElementById("resultado").innerHTML = resp;
-
-            }
-        </script>
+        <script type="text/javascript" src="shared/APA_Library.js"></script>
         <!-- Fixes Navigation Bar with drop down menu
         ======================================================-->
 

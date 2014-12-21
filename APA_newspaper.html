@@ -10,46 +10,8 @@
     </head>
 
     <body>
-        <script type="text/javascript">
-            function apaNews() {
-
-                //console.log("1223455");
-            
-                var resp = "";
-                var myText1 = document.getElementById('txf1');
-                var myText2 = document.getElementById('txf2');
-                var myText3 = document.getElementById('txf3');
-                var myText4 = document.getElementById('txf4');
-                var myText5 = document.getElementById('txf5');
-                
-                if( myText1.value != "" && 
-                    myText2.value != "" && 
-                    myText3.value != "" && 
-                    myText4.value != "" && 
-                    myText5.value != "") {
-
-                    resp = "La ficha bibliográfica es : <br />   " 
-                        + myText1.value 
-                        + ". (" 
-                        + myText2.value 
-                        + "). " 
-                        + myText3.value 
-                        + '. ' 
-                        + myText4.value 
-                        + ", " 
-                        + myText5.value 
-                        + ".";	
-
-                }
-                else{
-                       resp = "<h3>Te falt&oacute llenar algun dato </h3>";
-                       //console.log(resp);       
-                    }
-
-                document.getElementById("resultado").innerHTML = resp;
-
-            }
-        </script>
+        <script type="text/javascript" src="shared/APA_Library.js"></script>
+        
         <!-- Fixes Navigation Bar with drop down menu
         ======================================================-->
 

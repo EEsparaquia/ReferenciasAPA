@@ -10,46 +10,7 @@
     </head>
 
     <body>
-        <script type="text/javascript">
-            function apaMaga() {
-                var resp = "" ;
-                var myText1 = document.getElementById('txf1');
-                var myText2 = document.getElementById('txf2');
-                var myText3 = document.getElementById('txf3');
-                var myText4 = document.getElementById('txf4');
-                var myText5 = document.getElementById('txf5');
-                var myText6 = document.getElementById('txf6');
-
-                if(myText1.value != "" && 
-                        myText2.value != "" && 
-                        myText3.value != "" && 
-                        myText4.value != "" && 
-                        myText5.value != "" && 
-                        myText6.value != ""){
-                    
-                        resp = "<h3>La ficha bibliográfica es : </h3><br />   " 
-                                + myText1.value 
-                                +". (" 
-                                + myText2.value   
-                                +"). " 
-                                + myText3.value
-                                + '. ' 
-                                + myText4.value 
-                                +", " 
-                                + myText5.value 
-                                +", " 
-                                + myText6.value 
-                                +". ";		 
-                        
-                }
-                else{
-                    resp = "Te faltó llenar algun dato." ;
-                }
-                        
-                        document.getElementById("resultado").innerHTML = resp;
-
-            }
-        </script>
+        <script type="text/javascript" src="shared/APA_Library.js"></script>
         <!-- Fixes Navigation Bar with drop down menu
         ======================================================-->
 
