@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>APA Enciclopedia</title>
+
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body>
+        <script type="text/javascript">
+            function apaEnci() {
+
+                //console.log("1223455");
+            
+                var resp = "";
+                var myText1 = document.getElementById('txf1');
+                var myText2 = document.getElementById('txf2');
+                var myText3 = document.getElementById('txf3');
+                var myText4 = document.getElementById('txf4');
+                var myText5 = document.getElementById('txf5');
+                var myText6 = document.getElementById('txf6');
+                var myText7 = document.getElementById('txf7');
+                var myText8 = document.getElementById('txf8');
+                
+                if( myText1.value != "" && 
+                    myText2.value != "" && 
+                    myText3.value != "" && 
+                    myText4.value != "" && 
+                    myText5.value != "" &&
+                    myText6.value != "" &&
+                    myText7.value != "" &&
+                    myText8.value != "" ) {
+
+                    resp = "La ficha bibliográfica es : <br />   " 
+                        + myText1.value 
+                        + ". " 
+                        + myText2.value 
+                        + ". " 
+                        + myText3.value 
+                        + '. En ' 
+                        + myText4.value 
+                        + " (" 
+                        + myText5.value 
+                        + ", " 
+                        + myText6.value 
+                        + ") " 
+                        + myText7.value 
+                        + ": " 
+                        + myText8.value 
+                        + ". ");
+                }
+                
+                else{
+                       resp = "<h3>Te falt&oacute llenar algun dato </h3>";
+                       //console.log(resp);       
+                    }
+
+                document.getElementById("resultado").innerHTML = resp;
+
+            }
+        </script>
+        <!-- Fixes Navigation Bar with drop down menu
+        ======================================================-->
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="buttton" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">Armonica Project Press</a>
+                </div>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="APA_web.html">Paginas Web</a></li>
+                        <li><a href="APA_book.html">Libros</a></li>
+                        <li><a href="APA_magazine.html">Revista</a></li>
+                        <li><a href="APA_newspaper.html">Periodico</a></li>
+                        <li><a href="APA_enci.html">Emcilopedia</a></li><li>
+                        <li><a href="APA_chapter.html">Capitulo del Libro</a></li>
+                        <li><a href="APA_db.html">Referencia de BD</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- About - Jumbotron
+        =========================-->
+
+        <br/><br/><br/><br/>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                      
+                        <div class="jumbotron">
+                            <p class="style1"><span class="titulointerno">
+                                <strong>APA:</strong></span> 
+                                <span class="textointerno">Formato para citar de una enciclopedia.</span>
+                            </p>
+                            <p class="textointerno">Llena todos los campos siguientes con la informaci&oacute;n de tu fuente. 
+                            Cuando hayas registrado todos los datos, pulsa el bot&oacute;n &quot;Generar ficha&quot; 
+                            y c&oacute;pia la ficha resultante cuidadosamente en tu documento.
+                            </p>
+                            <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-6">
+                                    <div>
+                                        <hr/>
+                                        <p><strong>Recomendaciones generales</strong>
+                                            <a data-toggle="modal" href="#myModal">Click aqui!</a>
+                                        </p>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="myModal" tabinex="-1" role="dialog" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p><strong>Recomendaciones generales</strong>: </p>
+                                                        <p><strong>1.</strong> Recuerda verificar la ortograf&iacute;a (el uso de may&uacute;sculas en nombres propios de autores, acentos, etc). </p>
+
+                                                        <p><strong>2.</strong> En el campo &quot;Autor&quot; s&oacute;lo se escribe el apellido paterno y de los nombres, &uacute;nicamente se escribe la letra inicial abreviada con punto. (Ejemplo: Okuda, M.)</p>
+
+                                                        <p><strong>3.</strong> Si la fuente tiene m&aacute;s de un autor, coloca el ampersan (&amp;) entre ambos nombre; si son mas, sep&aacute;ralos con &quot;,&quot; (comas) y usa &quot;&amp;&quot; antes del &uacute;ltimo nombre. (Ejemplo: Kats, I., Gbayan, K., &amp; Aghajan, H.)</p>
+
+                                                        <p><strong>4.</strong> Una vez copiada la ficha a tu documento, coloca el t&iacute;tulo del art&iacute;culo en it&aacute;licas (Ejemplo: <em>Indicadores semanales</em>)  </p>
+
+                                                        <p><strong>5.</strong> La fecha va en el formato: Mes, d&iacute;a, a&ntilde;o(Ejemplo: diciembre 20, 2007)</p>
+                                                        <p class="style1">&nbsp;</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-horizontal">
+                                        <form>
+                                            <fieldset>
+                                                <label for="autores">Autor(es):</label><br />
+                                                <input type="text" name="autores" size="50" id="txf1" /><br />
+                                                <label for="fecha">A&ntilde;o de publicaci&oacute;n:</label><br />
+                                                <input type="text" name="fecha" size="50" id="txf2" /><br />
+                                                <label for="titulo">T&iacute;tulo del art&iacute;culo:</label><br />
+                                                <input type="text" name="titulo" size="50" id="txf3" /><br />
+                                                <label for="enciclopedia">Nombre de la enciclopedia:</label><br />
+                                                <input type="text" name="enciclopedia" size="50" id="txf4" /><br />
+                                                <label for="volumen">Volumen:</label><br />
+                                                <input type="text" name="volumen" size="50" id="txf5" /><br />
+                                                <label for="paginas">Paginas:</label><br />
+                                                <input type="text" name="paginas" size="50" id="txf5" /><br />
+                                                <label for="lugar">Lugar de publicaci&oacute; de la enciclopedia:</label><br />
+                                                <input type="text" name="lugar" size="50" id="txf5" /><br />
+                                                <label for="editorial">Editorial:</label><br />
+                                                <input type="text" name="editorail" size="50" id="txf5" /><br />
+                                            </fieldset>
+                                            <br />
+                                            <fieldset class="center">
+                                                <label for="msn"></label>
+                                                <input name="button" type="submit" value="Generar Ficha" onclick="apaEnci()" class="btn btn-danger" data-toggle="modal" href="#myModal2" />
+                                                <input type="reset" value="Reset" class="btn btn-info" />
+                                            </fieldset>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-3"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 2-->
+            <div class="modal fade" id="myModal2" tabinex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2>C&oacute;piala y p&eacute;ga la ficha resultante cuidadosamente en tu documento</h2>
+                        </div>
+                        <div class="modal-body">
+                            <i id="resultado"><</i>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <!-- Footer and Modal
+    ==========================-->
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 right">
+                
+                <hr/>
+                <p>Copyright &copy; Armonica
+                    <a data-toggle="modal" href="#contact">Contacto</a>
+                </p>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="contact" tabinex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2>Ponte en contacto</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>Gracias por usar los servicios de Armonica Project Press</p>
+                                <p>Envia un correo con tus comentarios y sugerencias a:</p>
+                                <p>info@referenceapa.byethost13.com</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>        
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    </body>
+</html>
