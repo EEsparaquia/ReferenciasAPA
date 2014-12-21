@@ -5,19 +5,19 @@ Tool that helps give referecnias APA Formatting and material support of differen
 It is the first vercion the code, it is still in draft format
 
 **Phase 2** 
-Create a template HTML code and print it on the rest of the files to simplify the code.
+Create a template HTML code and print it on the rest of the files to simplify the code.[In progress]
 
 **Phase 3**
 Compile the javascript code into a single file with multiple functions to be called for each file. [complete]
 
 **Phase 4**
-Implement a database to save every appointment that is generated.
+Implement a database to save every appointment that is generated.[In progress]
 
 **Phase 5**
-Check the contents of the database into a special section with PHP
+Check the contents of the database into a special section with PHP [In progress]
 
 **Phase 6**
-Move the entire site in one framework
+Move the entire site in one framework [In progress]
 
 
 
