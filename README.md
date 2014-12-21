@@ -1,24 +1,23 @@
 ReferenciasAPA
 ==============
+Tool that helps give referecnias APA Formatting and material support of different media. The code is ready for use, a web browser is only necessary because only contains HTML and JavaScript.
 
-Herramienta que ayuda a dar formato APA a las referecnias y material de apoyo de los distintos medios de comunicación. El codigo esta listo para usarse, solo es necesario un navegador de internet ya que solo contiene HTML y JavaScript.
+It is the first vercion the code, it is still in draft format
 
-Es la primera verción del codigo, aún está en formato preliminar
+**Phase 2** 
+Create a template HTML code and print it on the rest of the files to simplify the code.
 
-**Fase 2**
-Crear una plantilla del codigo HTML e imprimirla en el resto de los archivos para simplificar el código.
+**Phase 3**
+Compile the javascript code into a single file with multiple functions to be called for each file. [complete]
 
-**Fase 3**
-Compilar el codigo javascript en un solo archivo con multiples funciones para ser llamado por cada archivo. [completa]
+**Phase 4**
+Implement a database to save every appointment that is generated.
 
-**Fase 4**
-Implementar una base de datos que guarde cada cita que sea generada.
+**Phase 5**
+Check the contents of the database into a special section with PHP
 
-**Fase 5**
-Ver el contenido de la base de datos en un apartado especial con PHP
-
-**Fase 6**
-Mudar todo el sitio en un framework
+**Phase 6**
+Move the entire site in one framework
 
 
 
