@@ -9,7 +9,7 @@ Es la primera verción del codigo, aún está en formato preliminar
 Crear una plantilla del codigo HTML e imprimirla en el resto de los archivos para simplificar el código.
 
 **Fase 3**
-Compilar el codigo javascript en un solo archivo con multiples funciones para ser llamado por cada archivo.
+Compilar el codigo javascript en un solo archivo con multiples funciones para ser llamado por cada archivo. [completa]
 
 **Fase 4**
 Implementar una base de datos que guarde cada cita que sea generada.
