@@ -1,7 +1,7 @@
 ReferenciasAPA
 ==============
 
-Herramienta que ayuda a dar formato APA a las referecnias y material de apoyo de los distintos medios de comunicación.
+Herramienta que ayuda a dar formato APA a las referecnias y material de apoyo de los distintos medios de comunicación. El codigo esta listo para usarse, solo es necesario un navegador de internet ya que solo contiene HTML y JavaScript.
 
 Es la primera verción del codigo, aún está en formato preliminar
 
